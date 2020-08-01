@@ -1,9 +1,11 @@
 # Introduction
  This is Simple Drumkit application, play the different Drum Kit sounds on click of dedicated keys from PC. 
 
-# Technology
- I have used Vanilla JS, HTML5 and CSS
+ I have used Vanilla JS, HTML5 and CSS.
 
-# Why?
- This is inspired from Javascript30 challange.
+ This is inspired from Javascript30 challange. It is available in the below site 
+ https://jsdrumkitbycj.netlify.app/
+
+
+
 
