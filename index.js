@@ -8,4 +8,9 @@ keyPressed = (e) => {
 }
 const keyList = document.querySelectorAll('.keyblock');
 console.log(keyList);
+keyList.forEach(key => {
+    key.ontransitionend = () => {
+        key.classList.remove('sound');
+    };
+});
 window.addEventListener('keydown', keyPressed);

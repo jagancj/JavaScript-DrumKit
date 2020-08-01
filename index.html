@@ -5,39 +5,49 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>JavaScript Drum Kit</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" >
     <link rel='stylesheet' type='text/css' media='screen' href='app.css'>
-    <script src='index.js'></script>
 </head>
 <body class="mainBg">
     <div class="container">
          <div data-key="65" class="keyblock" >
              <kbd>A</kbd>
+             <p><cite>Boom</cite></p>
          </div>
          <div data-key="83" class="keyblock">
              <kbd>S</kbd>
+             <p><cite>Clap</cite></p>
          </div>
          <div data-key="68" class="keyblock">
              <kbd>D</kbd>
+             <p><cite>Hihat</cite></p>
          </div>
          <div data-key="70" class="keyblock">
              <kbd>F</kbd>
+             <p><cite>Kick</cite></p>
          </div>
          <div data-key="71" class="keyblock">
              <kbd>G</kbd>
+             <p><cite>Openhat</cite></p>
          </div>
          <div data-key="72" class="keyblock">
              <kbd>H</kbd>
+             <p><cite>Ride</cite></p>
          </div>
          <div data-key="74" class="keyblock">
              <kbd>J</kbd>
+             <p><cite>Snare</cite></p>
          </div>
          <div data-key="75" class="keyblock">
              <kbd>K</kbd>
+             <p><cite>Tink</cite></p>
          </div>
          <div data-key="76" class="keyblock">
              <kbd>L</kbd>
+             <p><cite>Tom</cite></p>
          </div>
     </div>
+    <div class="quoteStyle">Drums from the Keyboard</div>
     <audio data-key="65" src="assets/sounds/boom.wav" />
     <audio data-key="83" src="assets/sounds/clap.wav" />
     <audio data-key="68" src="assets/sounds/hihat.wav" />
@@ -48,4 +58,5 @@
     <audio data-key="75" src="assets/sounds/tink.wav" />
     <audio data-key="76" src="assets/sounds/tom.wav" />
 </body>
+<script src='index.js'></script>
 </html>
