@@ -10,15 +10,42 @@
 </head>
 <body class="mainBg">
     <div class="container">
-         <div onkeydown="keyPressed()" onclick="keyPressed()"></div>
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div>
-         <div></div>
+         <div data-key="65" class="keyblock" >
+             <kbd>A</kbd>
+         </div>
+         <div data-key="83" class="keyblock">
+             <kbd>S</kbd>
+         </div>
+         <div data-key="68" class="keyblock">
+             <kbd>D</kbd>
+         </div>
+         <div data-key="70" class="keyblock">
+             <kbd>F</kbd>
+         </div>
+         <div data-key="71" class="keyblock">
+             <kbd>G</kbd>
+         </div>
+         <div data-key="72" class="keyblock">
+             <kbd>H</kbd>
+         </div>
+         <div data-key="74" class="keyblock">
+             <kbd>J</kbd>
+         </div>
+         <div data-key="75" class="keyblock">
+             <kbd>K</kbd>
+         </div>
+         <div data-key="76" class="keyblock">
+             <kbd>L</kbd>
+         </div>
     </div>
+    <audio data-key="65" src="assets/sounds/boom.wav" />
+    <audio data-key="83" src="assets/sounds/clap.wav" />
+    <audio data-key="68" src="assets/sounds/hihat.wav" />
+    <audio data-key="70" src="assets/sounds/kick.wav" />
+    <audio data-key="71" src="assets/sounds/openhat.wav" />
+    <audio data-key="72" src="assets/sounds/ride.wav" />
+    <audio data-key="74" src="assets/sounds/snare.wav" />
+    <audio data-key="75" src="assets/sounds/tink.wav" />
+    <audio data-key="76" src="assets/sounds/tom.wav" />
 </body>
 </html>
